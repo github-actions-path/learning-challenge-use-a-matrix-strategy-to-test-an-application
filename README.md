@@ -1,4 +1,4 @@
-# 02-04 Challenge: Use a matrix strategy to test an application
+# Challenge: Use a matrix strategy to test an application
 You’re working with a data team that’s developing a python application for analyzing survey results.  They have an existing GitHub Actions workflow, but they want to make sure their application runs on Linux, macOS, and windows.  They also want to test for compatibilty with recent versions of Python.
 
 Your challenge is to create a workflow with the following attributes:
