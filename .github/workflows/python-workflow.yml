@@ -19,7 +19,7 @@ jobs:
         include:
           - platform: ubuntu-latest
             version: "3.6"
-            experimental: true
+            experimental: false
         exclude:
           - platform: windows-latest
             version: "3.10"
