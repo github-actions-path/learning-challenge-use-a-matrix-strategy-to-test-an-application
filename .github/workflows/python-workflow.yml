@@ -18,7 +18,7 @@ jobs:
         platform: [ubuntu-latest, macos-latest, windows-latest]
         #experimental: [false]
         include:
-          - platform: ubuntu-latest
+          - platform: syr-org-v1
             version: "3.6"
             #experimental: true
             #continue-on-error: ${{ matrix.experimental }}
