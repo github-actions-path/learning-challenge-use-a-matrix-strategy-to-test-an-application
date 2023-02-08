@@ -12,15 +12,15 @@ jobs:
     # Add your matrix strategy configuration here  #
     #----------------------------------------------#
     strategy:
-      fail-fast: false
+      #fail-fast: false
       matrix:
         version: ["3.7","3.8","3.9","3.10"]
         platform: [ubuntu-latest, macos-latest, windows-latest]
-        experimental: [false]
+        #experimental: [false]
         include:
           - platform: ubuntu-latest
             version: "3.6"
-            experimental: true
+            #experimental: true
             #continue-on-error: ${{ matrix.experimental }}
         exclude:
           - platform: windows-latest
